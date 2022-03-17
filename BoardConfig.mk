@@ -28,6 +28,9 @@ TARGET_KERNEL_CONFIG := sagit_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sagit
 
+# Board Info
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 
